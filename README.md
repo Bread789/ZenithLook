@@ -2,9 +2,9 @@
 
 > 让泰拉瑞亚里的**所有武器**都长成「天顶剑」的样子 —— 纯客户端外观模组，不改数值、不改判定、零网络开销。
 
-[![Terraria](https://img.shields.io/badge/Terraria-1.4.4.9-6a5acd)](https://terraria.org)
+[![Terraria](https://img.shields.io/badge/Terraria-1.4.4.9-6a5acd)](https://terraria.org)[![泰拉瑞亚](https://img.shields.io/badge/Terraria-1.4.4.9-6a5acd)](https://terraria.org)
 [![tModLoader](https://img.shields.io/badge/tModLoader-2026.8.x-4b8bbe)](https://github.com/tModLoader/tModLoader)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)[![许可证](https://img.shields.io/badge/license-MIT-green)](许可证)
 
 ---
 
@@ -20,8 +20,8 @@
 
 ## 安装（玩家）
 
-1. 到 [Releases](../../releases) 下载最新的 `ZenithLook.tmod`
-2. 放进 `Documents\My Games\Terraria\tModLoader\Mods\`
+1. 到 [Releases](../../releases) 下载最新的 `ZenithLook.tmod`1.前往[Releases发布版本](../../releases)下载最新的`ZenithLook.tmod`
+2. 放进 `Documents\My Games\Terraria\tModLoader\Mods\`2.放入`Documents\My Games\Terraria ModLoader\Mods\文档\我的游戏\泰拉瑞亚模组加载器\模组\`2.放入`文档\我的游戏\泰拉瑞亚\模组加载器\模组\`2.放入`文档\我的游戏\泰拉瑞亚模组加载器\模组\`
 3. 启动游戏 → 模组（Mods）→ 勾选「天顶幻化」→ 重载
 
 > 不需要 .NET SDK，不需要编译。
@@ -29,10 +29,10 @@
 ## 从源码构建（开发者）
 
 ```bash
-git clone https://github.com/<你的用户名>/ZenithLook.git
+git clone https://github.com/<Bread789>/ZenithLook.git
 ```
 
-把整个 `ZenithLook` 文件夹放进 `Documents\My Games\Terraria\tModLoader\ModSources\`，然后在游戏里 **模组 → 开发模组 → 构建 + 重载**。
+把整个 `ZenithLook` 文件夹放进 `Documents\My Games\Terraria\tModLoader\ModSources\`，然后在游戏里 **模组 → 开发模组 → 构建 + 重载**。将整个`ZenithLook`文件夹放入`Documents\My Games\Terraria ModLoader\ModSources\文档\我的游戏\泰拉瑞亚模组加载器\模组源文件夹\`，然后在游戏里**模组 → 开发模组 → 构建 + 重载**。
 
 也可以用命令行（注意：`-build` 的参数是**路径**，传模组名会在当前目录新建一个空壳，编出零类型的空程序集，载入时报「命名空间与文件夹名不匹配」）：
 
